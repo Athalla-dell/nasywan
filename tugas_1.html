@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>company</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+    <body>
+    <!--navigation-->
+    <nav class="bg-gray-300 fixed top-0 right-0 left-0 ">
+    <div class="container mx-auto flex items-center justify-between  py-5   ">
+        <a href="" class="w-22 "><img src="fithub-Photoroom.png" alt=""></a>
+        <div class="hidden md:inline space-x-30 font-semibold">
+        <a class="hover:text-slate-500 text-black" href="" >Login </a>
+        <a class="hover:text-slate-500 text-black" href="">About U</a>
+        <a class="hover:text-slate-500 text-black" href="">Package</a>
+        </div>
+        <button class="hidden md:inline bg-cyan-400 text-black px-4 py-2 rounded-xl mx-7 " >Create Account</button>
+        <i class="bi bi-list hamburger text-white inline md:hidden px-10"></i>  
+      </div>
+      <!--mobile menu-->
+      <div class="md:hidden ">
+      <div class="absolute top-16 hidden container   flex-col bg-black shadow-sm inset-x-0 mx-auto my-12 px-6 py-5">
+      <a class="hover:text-slate-500 text-white" href="">Login</a>
+      <a class="hover:text-slate-500 text-white" href="">About</a>
+      <a class="hover:text-slate-500 text-white " href="">Product Galeri</a>
+      </div>
+      </div>
+      </nav>
+    <!--hero section-->
+    <section class="flex justify-between items-center my-6 space-x-6 mt-30">
+    <img class="md:w-3/6 w-1/2" src="images.jpg" alt="gambar">
+        <div>
+    <h4 class="text-xl font-bold mt-12">Latihan Teratur</h4>
+    <h3 class="text-5xl font-bold mb-10">Buat badan yang kalian inginkan</h3>
+    <button class="bg-amber-300 font-bold py-2  px-3 rounded-2xl text-xl" >JOIN NOW</button>
+    </div>
+   
+    </section>
+    <!--partner-->
+    <section class="bg-gray-300 p-10 my-5">
+      <div class="flex justify-evenly items-center  mx-auto">
+        <img src="lmen-Photoroom.png" alt="" class="w-30">
+        <img src="whey-Photoroom.png" alt="" class="w-30">
+        <img src="jevo-Photoroom.png" alt="" class="w-60">
+
+    </section>
+    <!--about-->
+    <section class="container mx-auto md:p-10 md:my-5 md:text-center">
+      <h4 class="text-5xl font-bold text-center">About Us</h4>
+      <h3 class="text-3xl font-bold mt-8 text-center">Profil</h3>
+      <div class="flex items-center justify-center mt-16 space-x-8">
+      <div class="bg-gray-100 w-1/3 rounded-md border-gray-200">
+      <img src="image/myfoto.jpeg" alt=""  class="w-20 rounded-full mx-auto -mt-8">
+      <h5 class="font-bold pt-5">Muhammad Nasywam Athalla</h5>
+      <p class="p-5 text-gray-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus obcaecati natus ex error aperiam nemo cupiditate et? Repudiandae voluptas deserunt natus ipsam veritatis nulla quasi ducimus quibusdam ea quos perferendis iure odit cupiditate accusantium repellat, non exercitationem, quas est. Amet impedit est provident quidem odio assumenda maxime nam obcaecati debitis.</p>
+      </div>
+      </div>
+      <button class="bg-amber-300 text-white px-4 py-2 rounded-3xl text-xl mt-6 " >See all profil</button>
+    </section>
+    <!--product galery-->
+    <section>
+      <h4 class="text-center font-bold text-5xl">Training Schedule</h4>
+    <div class="grid grid-cols-1  mt-5 sm:grid-cols-3">
+    <div class="w-full "><img src="bicep.jpg"  class="w-100">
+    <H3 class="font-semibold text-center">Training bicep & tricep</H3>
+    <p class="mt-3 px-5">Description: Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Commodi, architecto.</p>
+    <div class="flex justify-end "><button class="bg-amber-300 text-white px-4 py-2 rounded-3xl mt-3 mr-5 my-5 flex flex-col  justify-center"><i class="bi bi-box-arrow-in-right"></i>Buy</button></div>
+    </div>
+    <div class="w-full "><img src="cehst.jpg"  class="w-100 h-58">
+    <H3 class="font-semibold text-center">Training Chest</H3>
+    <p class="mt-3 px-5">Description: Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Commodi, architecto.</p>
+    <div class="flex justify-end "><button class="bg-amber-300 text-white px-4 py-2 rounded-3xl mt-3 mr-5 my-5 flex flex-col  justify-center"><i class="bi bi-box-arrow-in-right"></i>Buy</button></div>
+    </div>
+    
+    <div class="w-full "><img src="leg.jpg" class="w-100 h-58">
+    <H3 class="font-semibold text-center">Training Leg</H3>
+    <p class="mt-3 px-5">Description: Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Commodi, architecto.</p>
+    <div class="flex justify-end "><button class="bg-amber-300 text-white px-4 py-2 rounded-3xl mt-3 mr-5 my-5 flex flex-col  justify-center"><i class="bi bi-box-arrow-in-right"></i>join</button></div>
+    </div>
+    </section>
+    <!--footer-->
+    <section class="px-30 py-5 bg-slate-800  sm:grid sm:grid-cols-2 md:grid-cols-3 lg:flex lg:justify-between mt-32 " >
+      <div >
+        <img src="image/logo.png" alt="" class="w-22">
+        <p class="mt-5 text-gray-500">mnasywan70@gmail.com <br>(+6281389078957)</p>
+      </div>
+      <div>
+        <h4 class="font-bold text-gray-500 text-2xl mb-4">About us</h4>
+        <ul class="text-gray-500 space-y-2">
+          <li><a href="">Support</a></li>
+          <li><a href=""></a>Sponsor</li>
+          <li><a href=""></a>About</li>
+        </ul>
+        
+      </div>
+      <div>
+        <h4 class="font-bold text-gray-500 text-2xl mb-4">Privasi</h4>
+        <ul class="text-gray-500 space-y-2">
+          <li><a href="">Support</a></li>
+          <li><a href=""></a>Sponsor</li>
+          <li><a href=""></a>About</li>
+        </ul></div>
+      <div>
+        <h4 class="font-bold text-gray-500 text-2xl mb-4">Material</h4>
+        <ul class="text-gray-500 space-y-2">
+          <li><a href="">Support</a></li>
+          <li><a href=""></a>Sponsor</li>
+          <li><a href=""></a>About</li>
+        </ul>
+        
+      </div>
+      <div>
+        <h4 class="font-bold text-gray-500 text-2xl mb-4">Product</h4>
+        <ul class="text-gray-500 space-y-2">
+          <li><a href="">Support</a></li>
+          <li><a href=""></a>Sponsor</li>
+          <li><a href=""></a>About</li>
+        </ul>
+        
+      </div>
+    </section>
+</body>
+</html>
+
